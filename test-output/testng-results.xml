@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209" started-at="2018-03-13T02:11:53Z" finished-at="2018-03-13T02:11:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="209" started-at="2018-03-13T02:11:53Z" finished-at="2018-03-13T02:11:53Z">
+      <class name="com.fcar.demo.test.YGMMobileApitest">
+        <test-method status="PASS" signature="test_carTelecontrol()[pri:0, instance:com.fcar.demo.test.YGMMobileApitest@2432f225]" name="test_carTelecontrol" duration-ms="195" started-at="2018-03-13T10:11:53Z" finished-at="2018-03-13T10:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_carTelecontrol -->
+      </class> <!-- com.fcar.demo.test.YGMMobileApitest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

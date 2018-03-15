@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>TestNG:  新浪口袋</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>新浪口袋</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 17 18:15:58 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (117 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='findyou.testcase.KoudaiLogin.getShenZhen_Succ()'><b>getShenZhen_Succ</b><br>Test class: findyou.testcase.KoudaiLogin<br/>
+<a href="#Output-1927867286" onClick='toggleBox("Output-1927867286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1927867286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1927867286">
+返回结果: {"code":"200","msg":"获取成功！","data":{"person":{"name":"徐珊","theme":null,"sex":"2","img_url":"https://vpn.sina.com/res/my_m2//commonupload/MISOA_MYCENTER_M/1441941316_5ae0c1c8a5260bc7b6648f6fbd115c35.jpg"},"apps":[{"uid":"B02F229E-D679-4F87-BE36-093BC14E40E3","name":"会议室","url":"https://merpproxy.sina.com/meeting.erp.sina.com.cn/meeting.php/phonemeeting/reserve_meeting/open","img_url":"http://vdun.sina.com.cn/static/appimg/p-index-icon1.png?v=1","order":1},{"uid":"B02F229E-D679-4F87-BE36-093BC14E40E8","name":"考勤维护","url":"https://merpproxy.sina.com/my.erp.sina.com.cn/my_m2/index.php/myAttendance","img_url":"http://vdun.sina.com.cn/static/appimg/p-index-icon2.png?v=1","order":2},{"uid":"1A3629E8-182D-4132-9CF2-453B568C7DFE","name":"提休假","url":"https://merpproxy.sina.com/my.erp.sina.com.cn/my_m2/index.php/vacation/toAdd","img_url":"http://vdun.sina.com.cn/static/appimg/p-index-icon3.png?v=1","order":3},{"uid":"CFCFAA5A-70FB-40A1-8CDC-7DAEAB82B546","name":"班车","url":"https://merpproxy.sina.com/my.erp.sina.com.cn/my_m2/index.php/bus","img_url":"http://vdun.sina.com.cn/static/appimg/p-index-icon4.png?v=1","order":4},{"uid":"F5D55CAC-873C-413D-91F9-4B257659DC71","name":"订餐","url":"https://merpproxy.sina.com/my.erp.sina.com.cn/my_m2/index.php/sina_food","img_url":"http://vdun.sina.com.cn/static/appimg/price.png?v=1","order":6},{"uid":"04DFB088-6165-42FE-A9B1-C694643625B3","name":"吃货","url":"https://merpproxy.sina.com/my.erp.sina.com.cn/my_m2/index.php/eat/shake_index","img_url":"http://vdun.sina.com.cn/static/appimg/p-index-icon7.png?v=1","order":7},{"uid":"9F64879B-E74D-42D9-9E9F-7466C8A9FC4D","name":"物业报修","url":"https://merpproxy.sina.com/my.erp.sina.com.cn/my_m2/index.php/propertyapp/property/index","img_url":"https://vpn.sina.com/img/kd/bxo.png?v=v3","order":8},{"uid":"305ACEC9-E422-45DE-85FA-75B0EFDDAF3C","name":"数据门户","url":"https://merp.sina.com.cn/my_m2/index.php/other/othersys/,DanaInfo=my.erp.sina.com.cn+sjmh","img_url":"http://vdun.sina.com.cn/static/appimg/p-index-icon8.png?v=1","order":9},{"uid":"A810004B-495A-4C23-A3AD-EF83725B65ED","name":"云共享","url":"https://merpproxy.sina.com/my.erp.sina.com.cn/my_m2/index.php/cloudShare","img_url":"http://vdun.sina.com.cn/static/appimg/yun.png?v=1","order":10},{"uid":"C003D0FA-200D-4E23-92A5-145034A165C4","name":"免认证","url":"https://merpproxy.sina.com/10.210.66.66/itArea/wifi/noauth/mnoauth.php","img_url":"http://vdun.sina.com.cn/static/appimg/p-index-icon9.png?v=1","order":11},{"uid":"E9A708F4-40BF-47C2-A9D3-3D9C8A699E4B","name":"商业工具","url":"https://merp.sina.com.cn/my_m2/index.php/other/othersys/,DanaInfo=my.erp.sina.com.cn+sygj","img_url":"http://vdun.sina.com.cn/static/appimg/sygj.png?v=1","order":13},{"uid":"E194DB9C-F6EB-43C9-BA77-FD9F6121DD55","name":"微博后台","url":"https://merp.sina.com.cn/my_m2/index.php/other/othersys/,DanaInfo=my.erp.sina.com.cn+weibo_admin","img_url":"http://vdun.sina.com.cn/static/appimg/Assistor.png?v=1","order":14},{"uid":"0FBB2F8E-F576-4A18-9233-77EDF5FECA44","name":"订机票","url":"https://merpproxy.sina.com/proc1.erp.sina.com.cn/mobile.php/flights/flights/open","img_url":"https://vpn.sina.com/img/plane.png?v=v2","order":15}]}}<br/>
+用例结果: resultCode=>expected: 徐珊 ,actual: 徐珊<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>findyou.testcase.KoudaiLogin@5d760aec</td></tr>
+</table><p>
+</body>
+</html>

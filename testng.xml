@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testng" parallel="false" verbose="10" >
+
+
+ 
+  <test name="神州闪贷后台管理系统-登录校验">
+       <classes>
+       <class name="com.fcar.scenario.test.LoginScenarioTest"/>
+       </classes>
+  </test>
+  
+  
+</suite>

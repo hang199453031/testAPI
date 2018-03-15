@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testng" parallel="false" verbose="10" >
+
+
+ 
+  <test name="天气">
+       <classes>
+       <class name="com.fcar.demo.test.CityWeatherTest"/>
+       </classes>
+  </test>
+  
+  
+</suite>
